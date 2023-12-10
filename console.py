@@ -16,12 +16,12 @@ class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
 
     def default(self, line):
-        """handles commands if nothing match"""
+        """handles commands if nothing matches"""
 
         self._precmd(line)
 
     def _precmd(self, line):
-        """Intercepts commands to check for its syntax"""
+        """Intercepts commands checking for its syntax"""
 
         match = re.search(r"^(\w*)\.(\w+)(?:\(([^)]*)\))$", line)
         if not match:
@@ -56,7 +56,7 @@ class HBNBCommand(cmd.Cmd):
         return command
 
     def update_dict(self, classname, uid, s_dict):
-        """Handles the dictionaary updates"""
+        """Handles the dictionary updates"""
 
         s = s_dict.replace("'", '"')
         d = json.loads(s)
