@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Extend the base class for amenties"""
+"""Extending the base class for amenties"""
 
 from models.base_model import BaseModel
 
