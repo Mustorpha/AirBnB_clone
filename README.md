@@ -26,16 +26,16 @@ How to Start:
 To start the command interpreter, open a terminal or command prompt on the system and then execute the command interpreter program. This could involve running a specific script or executable
 
 How to Use it:
-Users interact with the command interpreter by entering commands and arguments. Here are some general steps on how users might use your interpreter:
+Users interact with the command interpreter by entering commands and arguments. Here are some general steps on how users might use the interpreter:
 
 Open a terminal or command prompt.
-Navigate to the directory where your command interpreter is located.
+Navigate to the directory where the command interpreter is located.
 Run the command interpreter.
 Enter commands and provide any necessary arguments.
 
 
 Examples:
-Examples of commands users might use in your Airbnb command interpreter could include:
+Examples of commands users might use in the command interpreter could include:
 
 search <location> <start_date> <end_date>: Searches for available listings in a specific location and date range.
 book <listing_id> <start_date> <end_date>: Books a specific listing for a given date range.
