@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Extends the base model for places"""
+"""Extending base model for places"""
 
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """Class for managing place objects"""
+    """Class to manage place objects"""
 
     city_id = ""
     user_id = ""
